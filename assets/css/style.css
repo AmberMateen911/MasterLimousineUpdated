@@ -1,0 +1,90 @@
+
+/************ NAVIGATION BAR ***********************/
+header{
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    justify-content: space-between; 
+    top: 25px; 
+} 
+
+#logo {
+  width: 190px; 
+}
+
+#logo img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#menu { 
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0;
+  gap: 20px;
+
+}
+    
+.menu-item a{
+    padding:0 15px ;
+    position: relative;
+}
+
+.menu-item:not(.reservation-btn) a::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    top: 16px;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: rgb(33, 136, 182);
+    transition: transform 0.3s;
+    transform: scaleX(0);
+}
+
+.menu-item:not(.reservation-btn) a:hover::after,
+.menu-item:not(.reservation-btn) a#active::after
+{
+    transform: scaleX(0.8);
+}
+
+.reservation-btn{
+    background-color: rgb(167, 34, 17);
+    padding: 10px 0;
+}
+
+.reservation-btn:hover{
+    background-color: rgb(206, 47, 26);
+   
+}
+
+/************** HERO SECTION ********************/
+.hero-background{
+    background-image: url(../images/home/backgroundImage.png);
+    height: 800px;
+}
+
+#hero-container{ 
+    align-items: center;
+    justify-content: end;
+}
+
+.align-bottom{
+height: 560px;
+align-items: end;
+justify-content: end;
+max-width: 100%;
+
+}
+.content-container{
+    max-width: 32%;
+    text-align: right;
+    margin-right: 10%;
+}
+
+.content-container h1{
+    line-height: 0.8;
+}

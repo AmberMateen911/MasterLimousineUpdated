@@ -1,0 +1,49 @@
+@media screen and (max-width:430px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        position: unset;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #logo {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:430px) {
+   .hero-background{
+    height: 250px;
+    
+   }
+   .align-bottom {
+    height: 250px;
+}
+    .content-container h1 {
+        font-size: 20px;
+
+    }
+
+    .content-container {
+        text-align: center;
+        margin-right: 0;
+        max-width: 50%;
+
+    }
+
+    .content-container p {
+        font-size: 8px;
+    }
+
+    .align-bottom {
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
