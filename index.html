@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Home</title>
+    <title>Master Limosine</title>
 
     <link rel="stylesheet" href="assets\css\style.css">
     <link rel="stylesheet" href="assets\css\responsive.css">
     <link rel="stylesheet" href="assets\css\global.css">
 
-
-    <script src="assets\js\menu.js" defer></script>
+    <script src="assets\js\responsive.js" defer></script>
 
 </head>
- 
+
 <body>
     <!----------------NAVIGATION BAR------------------>
-    <header class="flex-container container">
-        <nav class="flex-container container">
-            <div id="logo"  onclick="toggleMenu()"><img src="assets\images\logo\logo.png" alt=""></div>
 
-            <ul id="menu" class="flex-container">
-                <li class="menu-item"><a href="index.html" id="active">HOME</a></li>
-                <li class="menu-item"><a href="service.html">SERVICE</a></li>
-                <li class="menu-item"><a href="event.html">EVENT</a></li>
-                <li class="menu-item"><a href="#fleet.html">OUR FLEET</a></li>
-                <li class="menu-item"><a href="about.html">ABOUT US</a></li>
-                <li class="menu-item"><a href="contact.html">CONTACT US</a></li>
-                <li class="menu-item reservation-btn"><a href="reservation.html">RESERVATION</a></li>
-            </ul>
 
-        </nav>
+
+
+    <header class="flex-container ">
+        <div class="flex-container container position-top-center">
+            <div id="logo"> <img src="assets\images\logo\logo.png" alt=""></div>
+            <nav class="flex-container container ">
+
+                <div class="menu-icon " onclick="myFunction(this); toggleMenu()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                </div>
+
+                <ul id="menu" class="flex-container">
+                    <li class="menu-item"><a href="index.html" id="active">HOME</a></li>
+                    <li class="menu-item"><a href="#">SERVICE</a></li>
+                    <li class="menu-item"><a href="#">EVENT</a></li>
+                    <li class="menu-item"><a href="#">OUR FLEET</a></li>
+                    <li class="menu-item"><a href="#">ABOUT US</a></li>
+                    <li class="menu-item"><a href="#">CONTACT US</a></li>
+                    <li class="menu-item reservation-btn"><a href="#">RESERVATION</a></li>
+                </ul>
+
+            </nav>
+        </div>
     </header>
 
     <!-------------- HERO SECTION------------->
+
     <section class="hero-background background">
         <div class="container flex-container" id="hero-container">
-            <div class=" flex-container align-bottom" >
-                <div class="content-container">
-                    <h1> SAN DIEGO <br> LIMOUSINE <br> SERVICE</h1>
-                    <p>
+            <div class=" flex-container content-height">
+                <div class="content-container flex-container ">
+                    <h1 class="text-white system-font "> SAN DIEGO LIMOUSINE SERVICE</h1>
+                    <p class="text-white system-font font-13">
                         Offering luxury transportation options for any occasion. We
                         have a vehicle to fit your needs, from stylish limousines to
                         spacious party buses. Our professional chauffeurs have
@@ -51,10 +61,11 @@
                         So choose us for an elegant and memorable <br>
                         transportation experience.
                     </p>
-
                 </div>
             </div>
     </section>
+
+
 
 
 </body>
