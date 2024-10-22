@@ -127,7 +127,6 @@ nav {
   gap: 10px;
   position: absolute;
   top: 900px;
-  margin-left: 50px;
   justify-content: flex-start;
 
 }
@@ -153,17 +152,20 @@ nav {
   top: -84px;
   height: 100px;
 }
+
+.cta-msg{
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+  top: 1700px;
+}
   
-
-
-
-
-
-
 .service-backgeound img {
   max-width: 100%;
 }
-
+.btn{
+  text-align: center;
+}
 
 
 
