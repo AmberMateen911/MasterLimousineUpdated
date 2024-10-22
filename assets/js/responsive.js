@@ -9,7 +9,7 @@ function toggleMenu() {
   let backgroundColor =
     screenWidth <= 480
       ? "rgba(0, 0, 0, 0.9)"
-      : screenWidth <= 770
+      : screenWidth <= 900
       ? "rgba(0, 0, 0, 0.9)"
       : "transparent";
 

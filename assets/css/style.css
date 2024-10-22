@@ -77,7 +77,7 @@ nav {
 .bar2
  {
   width: 30px;
-  height: 4px;
+  height: 3px;
   background-color: #f8f8f8;
   border-radius: 10px;
   margin-bottom: 6px;
@@ -85,11 +85,11 @@ nav {
 }
 
 .change .bar1 {
-  transform: translate(0, 1px) rotate(-38deg);
+  transform: translate(0, 1px) rotate(-45deg);
 }
 
 .change .bar2 {
-  transform: translate(0, -10px) rotate(38deg);
+  transform: translate(0, -9px) rotate(45deg);
 }
 
 /**************HERO SECTION********************/
@@ -108,7 +108,7 @@ nav {
   justify-content: end;
 }
 .content-container {
-  max-width: 31%;
+  max-width: 430px;
   text-align: right;
   margin-right: 35px;
   flex-direction: column;
@@ -120,3 +120,42 @@ nav {
   line-height: 0.8;
   margin-bottom: 0;
 }
+
+/********** SERVIVE SECTION **************/
+
+.servive-row{
+  gap: 10px;
+  position: absolute;
+  top: 900px;
+  margin-left: 50px;
+
+}
+.servive-row .col{
+  width: 235px;
+}
+
+.col h3{
+  width: 179px;
+  text-align: center;
+  height: 50px;
+  padding: 0px 23px;
+  align-content: center;
+}
+.col img{
+  max-width: 100%;
+}
+.col P{
+  padding: 0px 17px;
+  text-align: center;
+  width: 200px;
+  position: relative;
+  top: -84px;
+  height: 100px;
+}
+  
+.service-backgeound img{
+  max-width: 100%;
+}
+
+
+

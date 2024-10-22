@@ -52,9 +52,16 @@
     flex-direction: column;
     margin-top: 20px;
     margin-right: 0;
-    gap: 25px;
+    gap: 35px;
   }
+  .menu-item a{
+    font-size: 18px;
+ 
 
+  }
+  .menu-item:not(.reservation-btn) a::after{
+       top: 25px;
+  }
   /*   HERO SECTION   */
 
   .content-container {
@@ -76,6 +83,26 @@
 
   .content-height {
     height: 350px;
+  }
+
+  /*  SERVIVE */
+
+  .servive-row {
+    position: relative;
+    top: 28px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .servive-row .col{
+    height: 470px;
+  }
+}
+
+
+@media screen and (max-width: 725px) {
+  .servive-row{
+    flex-direction: column;
   }
 }
 
@@ -108,5 +135,14 @@
 
   .content-height {
     height: 225px;
+  }
+
+  /*  SERVICE */
+  .servive-row {
+    flex-direction: column;
+  
+  }
+  .servive-row .col{
+    height: 470px;
   }
 }
