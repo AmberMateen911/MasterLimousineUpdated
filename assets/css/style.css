@@ -128,6 +128,7 @@ nav {
   position: absolute;
   top: 900px;
   margin-left: 50px;
+  justify-content: flex-start;
 
 }
 .servive-row .col{
@@ -153,9 +154,16 @@ nav {
   height: 100px;
 }
   
-.service-backgeound img{
+
+
+
+
+
+
+.service-backgeound img {
   max-width: 100%;
 }
+
 
 
 

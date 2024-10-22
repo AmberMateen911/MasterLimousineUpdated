@@ -19,6 +19,14 @@
   .content-height {
     height: 575px;
   }
+
+    /*  SERVIVE */
+
+    .service-backgeound {
+      position: relative;
+      z-index: -1;
+      top: 90px;
+    }
 }
 
 /**********  @MEDIA 770PX *********/
@@ -31,6 +39,8 @@
   nav {
     flex-direction: column;
     top: -28px;
+    z-index: 2;
+    padding: 20px 0;
   }
 
   .menu-icon {
@@ -39,7 +49,7 @@
     margin-right: 12px;
     justify-content: center;
     position: relative;
-    top: 27px;
+    top: 10px;
   }
 
   #logo {
@@ -97,13 +107,18 @@
   .servive-row .col{
     height: 470px;
   }
-}
 
+  .service-backgeound {
+    position: relative;
+  
+}
+}
 
 @media screen and (max-width: 725px) {
   .servive-row{
     flex-direction: column;
   }
+  
 }
 
 /**********  @MEDIA 480PX *********/
