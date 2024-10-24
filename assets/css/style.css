@@ -74,8 +74,7 @@ nav {
 }
 
 .bar1,
-.bar2
- {
+.bar2 {
   width: 30px;
   height: 3px;
   background-color: #f8f8f8;
@@ -123,28 +122,27 @@ nav {
 
 /********** SERVIVE SECTION **************/
 
-.servive-row{
+.servive-row {
   gap: 10px;
   position: absolute;
   top: 900px;
   justify-content: flex-start;
-
 }
-.servive-row .col{
+.servive-row .col {
   width: 235px;
 }
 
-.col h3{
+.col h3 {
   width: 179px;
   text-align: center;
   height: 50px;
   padding: 0px 23px;
   align-content: center;
 }
-.col img{
+.col img {
   max-width: 100%;
 }
-.col P{
+.col P {
   padding: 0px 17px;
   text-align: center;
   width: 200px;
@@ -153,19 +151,126 @@ nav {
   height: 100px;
 }
 
-.cta-msg{
+.cta-msg {
   width: 500px;
   position: absolute;
   z-index: 1;
   top: 1700px;
 }
-  
+
 .service-backgeound img {
   max-width: 100%;
 }
-.btn{
+.btn {
   text-align: center;
 }
 
+/***********THE FLEET****************/
 
+.fleet-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.fleet-content h1 {
+  margin: 5px 0 30px 0;
+}
+.fleet-content p {
+  width: 700px;
+}
 
+.fleet-media a {
+  gap: 0;
+
+}
+.fleet-media  img {
+  width: 100%; 
+
+}
+.view-link-fleet{
+  justify-content: end;
+  align-items: center;
+}
+.fleet-link{
+  letter-spacing: 9px;  
+  margin-top: 9px;
+}
+.gt{
+  font-size: 40px;
+  font-weight: 200;
+}
+
+/***********  LOGO COLLECTION****************/
+
+.logo-collection{
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-collection img, .last-line-logo img{
+  max-width: 100%;
+  height: 100px;
+
+}
+
+.last-line-logo{
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 10px;
+}
+.view-link-logo{
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/***********  OUR SERVICE **************/
+.service-bg{
+  background-image: url(../images/home/carseat.png);
+}
+
+.service-content{
+  position: absolute;
+}
+
+.service-content p{
+  width: 466px;
+}
+
+.box-container{
+  justify-content: right;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  position: relative;
+  left: 370px;
+}
+
+.box-container .box-content-row:nth-child(1){
+  margin-top: 400px;
+}
+
+.box-container .box-content-row:nth-child(2){
+  margin-top: 250px;
+}
+
+.box-container .box-content-row:nth-child(3){
+  margin-top: 150px;
+}
+
+.box-container .box-content-row:nth-child(4){
+  margin-top: 50px;
+}
+
+.box-content-col{
+  text-align: center;
+  width: 220px;
+  height: 270px;
+  background-color: rgba(140, 136, 136, 0.167);
+}
+
+.box-content-col h3{
+  padding-top: 10px;
+}
+.box-content-col p{
+  padding: 0 5px;
+}

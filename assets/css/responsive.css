@@ -58,9 +58,7 @@
 
 }*/
 
-
 /**********  @MEDIA 1025 PX *********/
-
 @media screen and (max-width: 1025px) {
   #menu {
     margin-right: 20px;
@@ -81,13 +79,67 @@
     height: 575px;
   }
 
-    /*  SERVIVE */
+  /*  SERVIVE */
 
-    .service-backgeound {
-      position: relative;
-      z-index: -1;
-      top: 90px;
-    }
+  .servive-row {
+    margin-left: 30px;
+  }
+  .cta-msg-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .cta-msg {
+    width: 391px;
+    top: 1450px;
+    margin-left: 30px;
+  }
+  /************THE FLEET********************/
+  .fleet-content {
+    margin: 0 30px;
+  }
+  .fleet-content p {
+    width: 550px;
+  }
+
+  .fleet-media {
+    overflow: scroll;
+  }
+
+  .fleet-media img {
+    height: 700px;
+    object-fit: cover;
+  }
+
+  /*  OUR SERVICES */
+
+  .box-container {
+    left: 190px;
+  }
+
+  .service-content {
+    margin-left: 20px;
+  }
+
+  .service-content h1 {
+    margin-bottom: 0;
+  }
+
+  .box-content-col {
+    width: 195px;
+    height: 254px;
+  }
+
+  .box-content-col P {
+    width: 185px;
+  }
+
+  .box-container .box-content-row:nth-child(2) {
+    margin-top: 300px;
+  }
+
+  .box-container .box-content-row:nth-child(3) {
+    margin-top: 200px;
+  }
 }
 
 /**********  @MEDIA 770PX *********/
@@ -101,16 +153,17 @@
     flex-direction: column;
     top: -28px;
     z-index: 2;
+    position: fixed;
     padding: 20px 0;
   }
 
   .menu-icon {
     display: flex;
     height: 34px;
-    margin-right: 12px;
     justify-content: center;
     position: relative;
-    top: 10px;
+    top: 18px;
+    left: -15px;
   }
 
   #logo {
@@ -125,13 +178,20 @@
     margin-right: 0;
     gap: 35px;
   }
-  .menu-item a{
+  .menu-item a {
     font-size: 18px;
- 
-
   }
-  .menu-item:not(.reservation-btn) a::after{
-       top: 25px;
+  .menu-item:not(.reservation-btn) a::after {
+    top: 25px;
+  }
+
+  .reservation-btn {
+    background-color:transparent;
+  
+  }
+  
+  .reservation-btn:hover {
+    background-color:transparent;
   }
   /*   HERO SECTION   */
 
@@ -139,7 +199,7 @@
     max-width: 300px;
   }
 
-  .content-container h1 {
+  h1 {
     font-size: 50px;
   }
 
@@ -165,21 +225,92 @@
     justify-content: center;
     margin-left: 0;
   }
-  .servive-row .col{
+  .servive-row .col {
     height: 470px;
   }
 
-  .service-backgeound {
+  .cta-msg-container {
+    justify-content: center;
+  }
+  .cta-msg {
+    width: 504px;
+    top: 960px;
+    margin-left: 20px;
+  }
+
+  /***********THE FLEET***************/
+  .fleet-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .fleet-content p {
+    width: 615px;
+  }
+
+  .fleet-media {
+    overflow: scroll;
+  }
+
+  .fleet-media img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .logo-collection,
+  .last-line-logo {
+    grid-template-columns: auto auto;
+  }
+
+  /*  OUR SERVICES  */
+
+  .service-divider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-content {
+    text-align: center;
+    position: unset;
+  }
+
+  .service-content p {
+    width: 673px;
+  }
+
+  .box-container {
+    left: 0px;
+  }
+  .box-container {
+    grid-template-columns: auto auto auto;
+  }
+  .box-container .box-content-row:nth-child(1),
+  .box-container .box-content-row:nth-child(2),
+  .box-container .box-content-row:nth-child(3),
+  .box-container .box-content-row:nth-child(4) {
+    margin-top: 0;
+  }
+
+  .box-content-row.row-4 {
     position: relative;
-  
-}
+    top: -293px;
+  }
+
+  .box-content-col.col-3:nth-child(3) {
+    position: relative;
+    left: 207px;
+    top: -284px;
+  }
+
+  .box-content-col {
+    width: auto;
+    height: 270px;
+  }
 }
 
 @media screen and (max-width: 725px) {
-  .servive-row{
+  .servive-row {
     flex-direction: column;
   }
-
 }
 
 /**********  @MEDIA 480PX *********/
@@ -196,7 +327,7 @@
     margin-right: 12px;
   }
 
-  .content-container h1 {
+  h1 {
     font-size: 30px;
   }
 
@@ -215,24 +346,93 @@
 
   /*  SERVICE */
 
+  .service-backgeound {
+    position: unset;
+  }
   .servive-row {
     flex-direction: column;
   }
 
-  .servive-row .col{
+  .servive-row .col {
     height: 470px;
+  }
 
-  }
-  
-  .cta-msg{
+  .cta-msg {
     width: 290px;
-    margin: 0 auto;
-    position: unset;
-    margin-top: 100px;
+    position: relative;
+    top: 80px;
+    margin: 0;
   }
-  .cta-msg h2{
+  .cta-msg h2 {
     font-size: 25px;
   }
 
+  .fleet-content p {
+    width: 300px;
+    line-height: 1;
+    text-align: justify;
+  }
+  .fleet-media {
+    overflow: scroll;
+  }
 
+  .fleet-media img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+  }
+
+  /*  LOGO COLLECTION  */
+  .logo-collection,
+  .last-line-logo {
+    grid-template-columns: auto;
+    gap: 50px;
+    margin-top: 30px;
+  }
+
+  .logo-collection img,
+  .last-line-logo img {
+    max-width: 100%;
+    height: 100px;
+    box-shadow: 0 4px 12px rgba(255, 254, 254, 0.5);
+    border-radius: 10px;
+  }
+
+  /*  OUR SERVICES  */
+  .service-divider .box-content-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-content {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .service-content p {
+    width: 300px;
+  }
+
+  .service-content {
+    position: unset;
+  }
+
+  .box-container {
+    justify-content: center;
+    grid-template-columns: auto;
+    position: unset;
+  }
+
+  .box-container .box-content-row:nth-child(1) {
+    margin-top: 50px;
+  }
+  .box-container .box-content-row:nth-child(2),
+  .box-container .box-content-row:nth-child(3),
+  .box-container .box-content-row:nth-child(4) {
+    margin-top: 0;
+  }
+
+  .box-content-col.col-3:nth-child(3) {
+    left: 0;
+  }
 }
