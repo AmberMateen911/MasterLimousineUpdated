@@ -190,7 +190,7 @@ nav {
   justify-content: end;
   align-items: center;
 }
-.fleet-link{
+.view-link{
   letter-spacing: 9px;  
   margin-top: 9px;
 }
@@ -199,7 +199,7 @@ nav {
   font-weight: 200;
 }
 
-/***********  LOGO COLLECTION****************/
+/***********  LOGO COLLECTION*************/
 
 .logo-collection{
   grid-template-columns: auto auto auto;
@@ -273,4 +273,16 @@ nav {
 }
 .box-content-col p{
   padding: 0 5px;
+}
+
+
+
+
+/***********  HISTORY ************/
+
+.view-link-history {
+  justify-content: start;
+  align-items: center;
+  height: 100px;
+  margin-top: 50px;
 }
