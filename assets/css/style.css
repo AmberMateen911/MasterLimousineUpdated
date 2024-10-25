@@ -279,10 +279,84 @@ nav {
 
 
 /***********  HISTORY ************/
+.history-container{
+  height: 700px;
+}
 
 .view-link-history {
   justify-content: start;
   align-items: center;
   height: 100px;
   margin-top: 50px;
+}
+
+.history-row{
+  height: 300px;
+  overflow: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.history-col{
+  width: 330px;
+
+}
+.history-col img{
+  max-width: 100%;
+  display: block;
+}
+.history-content{
+    border-left:  solid 2px red;
+    padding: 10px;
+}
+
+
+.history-col h3{
+  margin-top: 0;
+  text-align: center;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+
+.history-date{
+  text-align: right;
+}
+
+
+/**********EVENETS**************/
+
+.event-bg{
+  background-image: url(../images/home/home8.png);
+  height: 600px;
+}
+
+.event-divider{
+  justify-content: center;
+  align-items:center;
+  height: 425px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.black-box-content{
+  align-items: baseline;
+  background-color: black;
+  text-align: center;
+  width: 100px;
+  height: 120px;
+  padding-top: 5px;
+}
+
+.black-box-conatiner{
+  gap: 10px;
+  
+}
+
+.rectangle{
+  background-color: rgba(0, 0, 0, 0.721);
+  width: 428px;
+  text-align: center;
+  
 }
