@@ -360,3 +360,84 @@ nav {
   text-align: center;
   
 }
+
+/************** ABOUT US***************/
+
+.about-bg{
+  background-image: url(../images/home/home9.png);
+}
+.about-row{
+  width: 900px;
+  height: 300px;
+  gap: 10px;
+  flex-direction: row;
+  overflow: scroll;
+  scrollbar-width: none;
+  cursor: pointer;
+}
+
+
+.about-col{
+  background-color: rgba(150, 148, 148, 0.272);
+  width: 350px;
+  height: 265px;
+  align-items: center;
+  
+}
+
+.shape{
+  width: 303px;
+  height: 69px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.circle{
+
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  background-color: white;
+}
+.qoute-line{
+  font-size: 50px;
+  border-bottom: 2px solid white;
+  font-family: fangsong;
+  width: 209px;
+  padding: 0 20px;
+  position: absolute;
+  text-align: right;
+  height: 41px;
+  left: 30px;
+  bottom: 19px;
+  font-style: italic;
+
+}
+
+.about-detail{
+  padding: 15px 25px 0;
+  margin: 0;
+}
+
+.about-bottom-content{
+    height: 24px;
+    width: 350px;
+    justify-content: flex-end;
+}
+
+.yellow-text{
+  color: yellow;
+  text-align: right;
+}
+
+.bottom-line{
+  width: 100px;
+  border-bottom: 2px solid white;
+}
+
+.about-content{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -352,7 +352,7 @@
 
 /**********  @MEDIA 480PX *********/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 490px) {
   .position-top-center {
     top: 13px;
   }
